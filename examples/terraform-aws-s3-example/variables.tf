@@ -10,10 +10,10 @@
 # REQUIRED PARAMETERS
 # You must provide a value for each of these parameters.
 # ---------------------------------------------------------------------------------------------------------------------
-variable "region" {
-  description = "The AWS region to deploy to"
-  type        = string
-}
+# variable "region" {
+#   description = "The AWS region to deploy to"
+#   type        = string
+# }
 
 # ---------------------------------------------------------------------------------------------------------------------
 # OPTIONAL PARAMETERS
@@ -29,7 +29,7 @@ variable "with_policy" {
 variable "tag_bucket_name" {
   description = "The Name tag to set for the S3 Bucket."
   type        = string
-  default     = "Test Bucket"
+  default     = "Test-Bucket"
 }
 
 variable "tag_bucket_environment" {
